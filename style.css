@@ -1,0 +1,117 @@
+
+
+:root {
+  --primary: #170447;
+  --secondary: #CC4F2E;
+  --accent1: #6A45FF;
+  --accent2: #FF7A3D;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: var(--primary);
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background: linear-gradient(to right, var(--accent1), var(--accent2));
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  width: 72px;
+  height: auto;
+  position:absolute;
+  top:20px;
+  right:20px;
+  top: 25px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+footer img {
+  height: 40px;
+  width:40px;
+  margin-top:25;
+  bottom: 10px;
+  left: 10px;
+  
+}
+
+
+.brand-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(90deg, #ff8a00, #ff4ecd, #7a5cff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+
+nav {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  background-color: white;
+  color: var(--secondary);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+nav button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+main p {
+  max-width: 720px;
+  margin: 0 auto 10px;
+  line-height: 1.6;
+  padding: 30px 20px;
+}
+
+.explore-btn {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.bottom-tab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--accent2);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
